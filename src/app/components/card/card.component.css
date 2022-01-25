@@ -1,0 +1,14 @@
+article {
+  /* border: 2px solid lightgray; */
+  box-shadow: 0 0 10px rgba(172, 172, 172, 0.2);
+  border-radius: 5px;
+  background-color: #fafafa;
+  display: flex;
+  gap: .5rem;
+  width: 280px;
+  height: 205px;
+}
+
+img {
+  border-radius: 5px 0 0 5px;
+}

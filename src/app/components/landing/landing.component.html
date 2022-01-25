@@ -1,0 +1,6 @@
+<h2>Esto son tus libros</h2>
+<div class="card-container">
+  <div *ngFor="let book of info.items">
+    <app-card [libro]="book"></app-card>
+  </div>
+</div>
