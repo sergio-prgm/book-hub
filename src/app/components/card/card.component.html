@@ -1,11 +1,11 @@
 <article>
- <a target="_blank" href="https://books.google.es/books?id=pI9jDwAAQBAJ&dq=Roberto+Bola%C3%B1o&hl=es&source=gbs_navlinks_s">
-    <img src="{{libro.volumeInfo.imageLinks.thumbnail}}" alt="{{libro.volumeInfo.title}}">
-  </a>
-  <div class="card-text">
-    <h3>{{libro.volumeInfo.title}}</h3>
-    <a href="#" target="_blank" rel="noopener noreferrer"><h4>{{libro.volumeInfo.authors[0]}}</h4></a>
-    <p>20 sept 2018</p>
-    <p>656 páginas</p>
-  </div>
+ <a target="_blank" href="{{libro.volumeInfo.infoLink}}">
+  <img src="{{libro.volumeInfo.imageLinks.thumbnail}}" alt="{{libro.volumeInfo.title}}">
+</a>
+<div class="card-text">
+  <h3>{{libro.volumeInfo.title}}</h3>
+  <a href="#" target="_blank" rel="noopener noreferrer"><h4>{{libro.volumeInfo.authors[0]}}</h4></a>
+  <p>{{libro.volumeInfo.publishedDate | date:'longDate':'es'}}</p>
+  <p>{{libro.volumeInfo.pageCount}} páginas</p>
+</div>
 </article>

@@ -1,6 +1,35 @@
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
 ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 10rem;
+  padding: 0;
+  margin: 2rem 6rem;
+  width: 100%
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:visited {
+  color: #333;
+}
+
+a:focus,
+a:hover {
+  color: hsl(220, 100, 67);
+}
+
+img {
+  width: 75px;
 }

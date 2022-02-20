@@ -1,5 +1,26 @@
 .card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin: auto;
+  place-content: center;
+}
+
+.card {
+  margin: auto;
+  width: 350px;
+}
+
+@media screen and (min-width: 716px) {
+  .card-container {
+    width: calc(700px + 1rem);
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1082px) {
+  .card-container {
+    width: calc((1050px + 2rem));
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
 }

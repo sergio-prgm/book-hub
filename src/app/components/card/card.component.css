@@ -2,13 +2,15 @@ article {
   /* border: 2px solid lightgray; */
   box-shadow: 0 0 10px rgba(172, 172, 172, 0.2);
   border-radius: 5px;
-  background-color: #fafafa;
+  background-color: hsl(0, 0, 98);
   display: flex;
-  gap: .5rem;
-  width: 280px;
+  gap: .7rem;
+  width: 340px;
   height: 205px;
+  padding-right: .8rem;
+  overflow: hidden;
 }
 
 img {
-  border-radius: 5px 0 0 5px;
+  height: 205px
 }

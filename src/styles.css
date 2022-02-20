@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
-html {
+:root {
+  --clr-neutral-900: hsl(0, 0, 7);
+  --clr-neutral-200: hsl(0, 0, 95);
+  --clr-neutral-100: hsl(0, 0, 98);
+  --clr-accent-500: hsl(220, 100, 67);
+  --clr-shadow: rgba(172, 172, 172, 0.2);
+}
+
+html *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -10,5 +18,13 @@ html {
 }
 
 body {
-  background-color: #f8f8f8;
+  background-color: hsl(0, 0, 95);
+}
+
+a { 
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
 }
